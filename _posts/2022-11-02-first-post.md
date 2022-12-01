@@ -3,7 +3,7 @@ layout: post
 title: first post
 description: This is a first post.
 summary: This is a first post.
-tags: day
+tags: TIL
 ---
 
 This is a first post.
