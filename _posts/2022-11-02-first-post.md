@@ -1,14 +1,27 @@
 ---
 layout: post
-title: first post
-description: This is a first post.
-summary: This is a first post.
+title: Github 블로그 세팅
+description: Github.io 블로그 세팅
+summary: Github.io 블로그 세팅
 tags: TIL
 ---
 
-This is a first post.
-vscode
-git (remote, add, commit, push)
-ruby
-gem
-bundle (install, exec)
+윈도우 기준
+
+1. 루비 설치 
+   https://rubyinstaller.org/downloads/
+
+   ```CMD
+   ruby -v
+   ```
+2. Jekyll 설치
+   CMD
+   ```CMD
+   gem install jekyll bundler
+   ```
+
+3. 폴더 이동 및 gem, bundle install
+   ```CMD
+   gem install bundler
+   bundle install
+   ```
