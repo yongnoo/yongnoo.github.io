@@ -3,6 +3,16 @@ layout: page
 title: "404: Page not found"
 permalink: 404.html
 ---
+<script>
+    window.onload = () => {
+        currentURL = window.location.href;
+        lowerCaseURL = currentURL.toLowerCase();
+        if (currentURL != lowerCaseURL) {
+            location.replace(lowerCaseURL);
+        }
+    };
+</script>
+
 <div class="flex-row-between">
 	<a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 </div>
